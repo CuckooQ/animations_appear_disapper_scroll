@@ -1,0 +1,31 @@
+{
+  "name": "scroll_appear_disapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuckooQ/animations_appear_disapper_scroll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CuckooQ/animations_appear_disapper_scroll/issues"
+  },
+  "homepage": "https://github.com/CuckooQ/animations_appear_disapper_scroll#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.4",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.39.0"
+  },
+  "dependencies": {
+    "gsap": "^3.7.1",
+    "lodash": "^4.17.21",
+    "material-icons": "^1.2.1"
+  }
+}

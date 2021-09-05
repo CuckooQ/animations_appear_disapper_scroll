@@ -1,0 +1,38 @@
+@import 'material-icons/iconfont/material-icons.css';
+
+body {
+  inline-size: 100%;
+  block-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  inline-size: 100%;
+  block-size: 1300px;
+  background-color: #D9F8FB;
+
+  .item {
+    position: absolute;
+    inline-size: 640px;
+    margin: 0 auto;
+    inset-block-start: 200px;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+  }
+  
+  .arrow-up {
+    position: fixed;
+    inline-size: 36px;
+    block-size: 36px;
+    inset-block-end: 100px;
+    inset-inline-end: 50px;
+    font-size: 36px;
+    border: 2px solid #333;
+    border-radius: 20%;
+    cursor: pointer;
+    display: none;
+  }
+}
+
+
